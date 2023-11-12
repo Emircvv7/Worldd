@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основной фон контейнера (белый) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Белый цвет фона -->
+            <corners android:radius="8dp" /> <!-- Радиус закругленных углов -->
+        </shape>
+    </item>
+    <!-- Граница контейнера (серый) -->
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#D3D3D3" /> <!-- Серый цвет границы -->
+            <corners android:radius="50dp" /> <!-- Радиус закругленных углов -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,5 @@
+<!-- edittext_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#D3D3D3" /> <!-- Задаем цвет фона, например, белый -->
+    <corners android:radius="8dp" /> <!-- Округляем углы -->
+</shape>
